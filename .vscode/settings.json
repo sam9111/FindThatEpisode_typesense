@@ -1,0 +1,135 @@
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.defaultInterpreterPath": "/opt/anaconda3/bin/python",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "Zowe-DS-Persistent": {
+    "persistence": true,
+    "favorites": [],
+    "history": [],
+    "sessions": ["mtm2020"],
+    "fileHistory": [],
+    "searchHistory": ["Z07270"]
+  },
+  "Zowe-USS-Persistent": {
+    "persistence": true,
+    "favorites": [],
+    "history": [],
+    "sessions": ["mtm2020"],
+    "fileHistory": [],
+    "searchHistory": ["Z07270"]
+  },
+  "Zowe-Jobs-Persistent": {
+    "persistence": true,
+    "favorites": [],
+    "history": [],
+    "sessions": ["mtm2020"],
+    "fileHistory": []
+  },
+  "files.associations": {
+    "*.COBOL*": "cobol",
+    "*.COB*": "cobol",
+    "*.COBCOPY*": "cobol",
+    "*.COPYBOOK*": "cobol",
+    "*.COPY*": "cobol",
+    "*.PL1*": "pl1",
+    "*.PLI*": "pl1",
+    "*.INC*": "pl1",
+    "*.INCLUDE*": "pl1",
+    "*.JCL*": "jcl",
+    "*.ASM*": "hlasm",
+    "*.ASSEMBLE*": "hlasm",
+    "*.HLASM*": "hlasm",
+    "*.HLA*": "hlasm",
+    "*.html.erb": "html"
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["/zapp.json"],
+      "url": "file:///Users/sammu/.vscode/extensions/ibm.zopeneditor-1.1.3/resources/zapp-schema-0.0.1.json"
+    }
+  ],
+  "kite.showWelcomeNotificationOnStartup": false,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnPaste": true,
+  "tabnine.experimentalAutoImports": true,
+  "code-runner.clearPreviousOutput": true,
+  "editor.fontSize": 16,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "editor.tabCompletion": "on",
+  "window.openFilesInNewWindow": "on",
+  "window.openFoldersInNewWindow": "on",
+  "window.doubleClickIconToClose": true,
+  "window.closeWhenEmpty": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "extensions.ignoreRecommendations": true,
+  "markdown.links.openLocation": "beside",
+
+  "openInApplication.applications": {
+    "html": "Firefox" // Always use Firefox for opening html files
+  },
+  "explorer.confirmDelete": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true
+  },
+  "workbench.editor.enablePreview": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.inheritEnv": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+
+  "ruby.useLanguageServer": true, // use the internal language server (see below)
+  "editor.formatOnSave": true,
+  "ruby.rubocop.onSave": true,
+  "ruby.format": "rubocop",
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop"
+  },
+  "ruby.rubocop.suppressRubocopWarnings": true,
+  "ruby.lint": {
+    "rubocop": {
+      "forceExclusion": true
+    }
+  },
+  "ruby.rubocop.executePath": "/Users/sammu/.rvm/gems/ruby-2.7.2/wrappers/",
+  "ruby.rubocop.configFilePath": ".rubocop.yml"
+}

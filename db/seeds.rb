@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Show.create_show('https://api.tvmaze.com/singlesearch/shows?q=loki&embed=episodes')
+Show.create_show('https://api.tvmaze.com/singlesearch/shows?q=brooklyn&embed=episodes')
+Show.create_show('https://api.tvmaze.com/singlesearch/shows?q=breaking&embed=episodes')
+Show.create_show('https://api.tvmaze.com/singlesearch/shows?q=office&embed=episodes')
