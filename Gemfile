@@ -63,3 +63,6 @@ gem "httparty", "~> 0.18.1"
 gem "typesense-rails", git: "git@github.com:typesense/typesense-rails.git", branch: "adaptation"
 
 gem "awesome_print", "~> 1.9"
+
+gem 'react-rails'
+
