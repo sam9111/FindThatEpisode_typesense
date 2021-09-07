@@ -5,5 +5,6 @@ Typesense.configuration = {
     protocol: 'http'         # For Typesense Cloud use https
   }],
   api_key: 'xyz',
-  connection_timeout_seconds: 2
+  connection_timeout_seconds: 2,
+  pagination_backend: :will_paginate
 }

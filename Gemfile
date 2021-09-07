@@ -66,3 +66,5 @@ gem "awesome_print", "~> 1.9"
 
 gem 'react-rails'
 
+
+gem "will_paginate", "~> 3.3"

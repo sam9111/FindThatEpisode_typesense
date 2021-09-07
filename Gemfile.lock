@@ -1,9 +1,9 @@
 GIT
   remote: git@github.com:typesense/typesense-rails.git
-  revision: c989a418411183d061c34903565ed72d1426b9bf
+  revision: 59cd86f475789436f7b2619032479289cfe4fac6
   branch: adaptation
   specs:
-    typesense-rails (2.0.0)
+    typesense-rails (0.0.0)
       json (>= 1.5.1)
       typesense (>= 0.13.0)
 
@@ -236,6 +236,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    will_paginate (3.3.1)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.4.2)
@@ -266,6 +267,7 @@ DEPENDENCIES
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)
+  will_paginate (~> 3.3)
 
 RUBY VERSION
    ruby 2.7.2p137
