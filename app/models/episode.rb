@@ -1,7 +1,7 @@
 class Episode < ApplicationRecord
   belongs_to :show
   include Typesense
-  typesense  do
+  typesense per_environment: true do
     predefined_fields [
       { name: 'name', type: 'string' },
       { name: 'summary', type: 'string' },

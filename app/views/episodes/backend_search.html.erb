@@ -1,1 +1,9 @@
-<%= will_paginate @results %>
+<div>
+  <% @episodes.each do |episode| %>
+  <div>
+    <p><%= episode.id %></p>
+    <p><%= episode.name %></p>
+  </div>
+  <% end %>
+  <%= will_paginate @episodes %>
+</div>

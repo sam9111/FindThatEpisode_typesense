@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  root 'shows#index'
-  get  '/frontend' => 'episodes#frontend_search'
+  root 'episodes#frontend_search'
   get  '/backend' => 'episodes#backend_search'
   resources :episodes
   resources :shows
