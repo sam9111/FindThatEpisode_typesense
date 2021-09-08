@@ -6,5 +6,5 @@ Typesense.configuration = {
   }],
   api_key: 'xyz',
   connection_timeout_seconds: 2,
-  pagination_backend: :will_paginate
+  pagination_backend: :kaminari
 }

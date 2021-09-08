@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:typesense/typesense-rails.git
-  revision: 59cd86f475789436f7b2619032479289cfe4fac6
+  revision: 916ca4a49b041d954c437077440a286dae4f850a
   branch: adaptation
   specs:
     typesense-rails (0.0.0)
@@ -112,6 +112,18 @@ GEM
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
     json (2.5.1)
+    kaminari (1.2.1)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.2.1)
+      kaminari-activerecord (= 1.2.1)
+      kaminari-core (= 1.2.1)
+    kaminari-actionview (1.2.1)
+      actionview
+      kaminari-core (= 1.2.1)
+    kaminari-activerecord (1.2.1)
+      activerecord
+      kaminari-core (= 1.2.1)
+    kaminari-core (1.2.1)
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -252,6 +264,7 @@ DEPENDENCIES
   dotenv-rails (~> 2.7)
   httparty (~> 0.18.1)
   jbuilder (~> 2.7)
+  kaminari (~> 1.2)
   listen (~> 3.3)
   pg (~> 1.1)
   puma (~> 5.0)
