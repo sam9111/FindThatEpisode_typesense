@@ -2,11 +2,6 @@ class Show < ApplicationRecord
   serialize :metadata, JSON
   has_many :episodes
 
-  include Typesense
-
-  typesense per_environment: true do
-  end
-
   def about
     m = metadata
     { name: m['name'], genre: m['genres'], website: m['officialSite'], rating: m['rating']['average'], image: m['image']['original'], summary: m['summary'] }
