@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:typesense/typesense-rails.git
-  revision: 916ca4a49b041d954c437077440a286dae4f850a
+  revision: 3ddac04821aeabfa742e32d84477cd545559e3f9
   branch: adaptation
   specs:
     typesense-rails (0.0.0)

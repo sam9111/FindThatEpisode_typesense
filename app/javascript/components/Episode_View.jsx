@@ -27,11 +27,12 @@ const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
 const searchClient = typesenseInstantsearchAdapter.searchClient;
 
 const Hit = ({ hit }) => (
-  <p>
+  <div>
+    <p>{hit.number}</p>
+
     <Highlight attribute="name" hit={hit} tagName="mark" />
     <Highlight attribute="summary" hit={hit} tagName="mark" />
-    <p>{hit.number}</p>
-  </p>
+  </div>
 );
 
 const Episode_View = (props) => {
