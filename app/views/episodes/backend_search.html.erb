@@ -1,8 +1,16 @@
 <div>
+  <%= form_with url: "/backend", method: :get do |form| %>
+  <%= form.label :query, "Search in episode summary" %>
+  <%= form.text_field :query %>
+  <%= form.submit "Search" %>
+<% end %>
+<h2>Displaying results for "<%= @query %>"</h2>
   <% @episodes.each do |episode| %>
+  <hr>
   <div>
-    <p><%= episode.id %></p>
-    <p><%= episode.name %></p>
+    <h3><%= episode.id %></h3>
+    <h3><%= episode.name %></h3>
+    <%= episode.summary%>
   </div>
   <% end %>
   <%= will_paginate @episodes %>
