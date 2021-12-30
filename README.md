@@ -4,7 +4,7 @@ Ruby version: 2.7.2
 Node version: 16.13.0
 Rails version: 6.1.4.1
 
-Run the server with CORS enabled in the browser to allow access to the Typesense host
+Run the server with CORS enabled in the browser to allow access to the Typesense host.
 
 # FindThatEpisode Using Typesense Rails Client
 
